@@ -56,7 +56,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 0),
                 child: ElevatedButton(
                   onPressed: () async {
-                    provider.makeChickenPizza();
+                    provider.makeChickenPizza(context);
                   },
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 20),
